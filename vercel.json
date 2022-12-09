@@ -9,7 +9,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/"
+            "dest": "/views/Team-Builder-Login/index.html"
         }
     ]
 }
