@@ -63,7 +63,7 @@ So we the team behind Team Builder are budding developers with so much aspiratio
 
 
   #### Manually
-  1. Download node.js from `` https://nodejs.org/en/download/ ``
+  1. Download node.js from https://nodejs.org/en/download/ 
   2. Open vs-code/cmd/powershell and in the new terminal run 
    ```bash 
    git clone https://github.com/MLH-LHD-Build-2022/Team-Builder
