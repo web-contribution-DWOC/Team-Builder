@@ -162,13 +162,13 @@ app.post("/dashboard", (req, res) => {
         var index = authenticate(requsername,reqpassword);
 
           if(index!=-1 ){
-              session = req.session;
-              session.userid = req.body.username;
-              session.ind = index;
+              global.session = req.session;
+              global.session.userid = req.body.username;
+              global.session.ind = index;
               console.log(session);
 //              console.log(window.session);
               
-            var user = session.userid;
+            var user = global.session.userid;
               res.render("Team-Builder-Dashboard/index", {
                   user : user,
                   profile_url:users[index].profileurl
