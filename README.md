@@ -98,6 +98,11 @@ So we the team behind Team Builder are budding developers with so much aspiratio
 
 #### Now you're good to go !! 
 
-
 ### Contributing
 team-builder is an openSource project, feel free to make contributions to this project by opening issues, adding new features and fixing the bug.
+join the server of the project for further contributing help.
+https://discord.gg/Ty9kh3EN9q
+
+
+
+
