@@ -47,6 +47,8 @@ So we the team behind Team Builder are budding developers with so much aspiratio
 #### Tech Stacks used to build:
  > HTML, CSS, JavaScript, bootstrap, Firebase, node.js, express.js, cookie-parser
 
+
+
 ### Installation
 
   #### Docker 
@@ -103,6 +105,9 @@ team-builder is an openSource project, feel free to make contributions to this p
 join the server of the project for further contributing help.
 https://discord.gg/Ty9kh3EN9q
 
-
+## Our Contributors
+<a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=Naresh-chandanbatve/Team-Builder"/>
+</a>
 
 
