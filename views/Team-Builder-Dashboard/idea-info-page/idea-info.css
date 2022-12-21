@@ -1,71 +1,85 @@
-#img {
-    height: 100px;
-    width: 100px;
-    background-color: rgba(2, 0, 34, 0.954);
-    margin-left: 34%;
-    border-radius: 15px;
-    margin-top: 40px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: white;
-}
-
 body {
-    background-color: #1f1734;
+    /* background-color: #1f1734; */
+    background: rgb(26, 188, 156);
+	background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+	background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
 }
 
-#title {
-  color: whitesmoke;
-  font-size: 40px;
-  position: absolute;  
-  margin-left: 50%;
-  top: 13px;
-  background-color: black;
-  padding: 20px;
-  border-radius: 15px;
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
 }
 
-.author {
-    width: fit-content;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    color: white;
-    font-size: 30px;
-
-}
-
-#description {
-    width: fit-content;
-    font-size: 30px;
-    color: rgb(255, 195, 122);
-    margin: 0 auto;
+#idea_name {
+    color: whitesmoke;
+    font-size: 40px;
+    position: absolute;  
+    margin-left: 43%;
+    top: 13px;
+    background-color: black;
+    padding: 20px;
+    border: 5px white solid;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
 }
 
 .back {
-  margin: 0 auto;
-  background-color: black;
-  width: 600px;
-  padding: 20px;
-  margin-top: 7%;
-  border-radius: 15px;
+    margin: 0 auto;
+    background-image:url("https://wallpapercave.com/wp/wp1909399.png");
+    width: 600px;
+    padding: 20px;
+    margin-top: 10%;
+    border-radius: 15px;
+    width:auto;
+    max-width:70%;
+    box-shadow: 10px 10px 10px black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+  }
+ 
+.leader {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 30px;
+    color: white;
+}  
+
+.description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 30px;
+    color: white;
 }
 
-.head {
-    color: rgb(255, 195, 122);
-    font-size: 30px; 
+.members {
+    font-size: 30px;
+    color: white;
 }
 
-
-#join_btn {
-   margin-left: 47%;
-   margin-top: 30px;
-   height: 40px;
-   width: 140px; 
-   font-size: 30px;
-   color: white;
-   border-radius: 15px;
-   box-shadow: 10px 10px 10px black;
-   background-color: rgb(74, 44, 113);
+button {
+ height: 40px;
+ width: 200px;
+ background-color: rgb(74, 44, 113);
+ border-radius: 15px;
+ margin-left: 80%;
+ margin-top: 30px;
+ color: rgb(255, 255, 255);
+ font-size: 20px;
+ box-shadow: 10px 10px 10px black;
 }
 
 #back {
@@ -74,9 +88,23 @@ body {
     background-color: rgb(74, 44, 113);
     border-radius: 15px;
     margin-left: 80%;
-    margin-top: 40px;
+    margin-top: 30px;
+    margin:auto;
     color: rgb(255, 255, 255);
     font-size: 20px;
     position: absolute;
     box-shadow: 10px 10px 10px black;
+    width: auto;
+    align-content: center;
+}
+#join {
+    background-color: rgb(74, 44, 113);
+    border-radius: 15px;
+    padding: 4px;
+width:100px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: absolute;
+    box-shadow: 10px 10px 10px black;
+    align-content: center;
 }
