@@ -107,7 +107,7 @@ https://discord.gg/Ty9kh3EN9q
 
 ## Our Contributors
 <a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo=Naresh-chandanbatve/Team-Builder"/>
+  <img src = "https://contrib.rocks/image?repo=web-contribution-DWOC/Team-Builder"/>
 </a>
 
 
