@@ -51,7 +51,7 @@ body {
     flex-direction: column;
   }
  
-.leader {
+.author {
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-size: 30px;
