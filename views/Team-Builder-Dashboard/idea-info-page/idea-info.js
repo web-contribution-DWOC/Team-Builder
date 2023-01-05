@@ -18,7 +18,7 @@ import {
    */
   var description_Element = document.getElementById("description");
   var img_elemetn = document.getElementById("img");
-  var title_element = document.getElementById("title");
+  var title_element = document.getElementById("idea_name");
   var admin_Element = document.getElementById("admin");
   var join_element = document.getElementById("join_btn");
   
@@ -37,6 +37,7 @@ import {
         const getdoc = onSnapshot(
             docref, (docu) => {
                  var data = docu.data();
+                 console.log(data.admin);
               description_Element.textContent = data.description;
               img_elemetn.setAttribute("src",data.imgurl);
               title_element.textContent = data.title;
