@@ -1,34 +1,25 @@
 <html>
-
 <head>
     <link rel="stylesheet" href="./idea-info.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
     <body>
         <button id="back" onclick="history.back()">Dashboard</button>
-    
-       
-          <img id="img">
-           
-          <p  id="title">
-
-           <div class="back">
+        <p id="idea_name">
+        </p>
+        <br><br>
+        <div class="back" style="overflow-x: auto;">
             <div class="author">
-                <p id="author">Idea Author :&nbsp;</p>  <p id="admin"></p>
+                <p id="author"> Idea Author : </p>
+                <p id="admin"></p>
             </div>
-            </p>
-
-            
-              <p class="head">Description : </p>
-              <p id="description">
-                
-              </p>
-           </div>
-
-        
-     <button id="join_btn">Join</button>
-   
-
+            <div class="description">
+                <p class="head"> Description : </p>
+                <p id="description"></p>
+            </div>
+            </br>
+        </div><br/><br/><br/>
+        <div ><button style="margin: 0 auto; margin-left: 48%;"  id="join" >Join</button></div>
         <script>
             var myidea = '<%= idea %>';
         </script>
