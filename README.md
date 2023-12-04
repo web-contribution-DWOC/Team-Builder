@@ -65,22 +65,23 @@ So we the team behind Team Builder are budding developers with so much aspiratio
 
 
   #### Manually
-  1. Download node.js from https://nodejs.org/en/download/ 
-  2. Open vs-code/cmd/powershell and in the new terminal run 
+  1. fork and give star to this project ❤️.
+  2. Download node.js from https://nodejs.org/en/download/ 
+  3. Open vs-code/cmd/powershell and in the new terminal run 
    ```bash 
    git clone https://github.com/MLH-LHD-Build-2022/Team-Builder
    ```
 
- 3. run <br>
+ 4. run <br>
    ```bash
    npm install
    ```
 
-  4. Create `.env` file in the root directory. <br>
+  5. Create `.env` file in the root directory. <br>
 
-  5. Create a web project in the firebase console and copy the `firebase options`. <br>
+  6. Create a web project in the firebase console and copy the `firebase options`. <br>
 
-  6. Paste the options in `.env` file 
+  7. Paste the options in `.env` file 
   > Replace all the `:` with `=` and eleminate all the `,` and `blank spaces` as depicted in the code block below.
    ```dotenv
    apiKey="apiKey from your firebase project"
@@ -91,11 +92,11 @@ So we the team behind Team Builder are budding developers with so much aspiratio
    appId="appId from your firebase project"
    measurementId="measurementId from your firebase project"
    ```
-  7. run <br>
+  8. run <br>
    ```bash
    node index.js
    ```
-  8. Open any browser and paste this `` http://localhost:4000/`` <br>
+  9. Open any browser and paste this `` http://localhost:4000/`` <br>
 
 
 #### Now you're good to go !! 
