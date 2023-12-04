@@ -21,6 +21,18 @@ body {
 	}
 }
 
+#img {	
+    height: 100px;	    
+    width: 100px;	    
+    background-color: rgba(2, 0, 34, 0.954);	
+    margin-left: 34%;		
+    border-radius: 15px;		
+    margin-top: 40px;	
+    border-width: 1px;	
+    border-style: solid;	
+    border-color: white;	
+}
+
 #idea_name {
     color: whitesmoke;
     font-size: 40px;
