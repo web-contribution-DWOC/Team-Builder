@@ -3,7 +3,7 @@ name: Deploy preview environment on Koyeb
 on:
   pull_request:
     branches:
-      - main
+      - dev
 
 jobs:
   deploy_preview:
