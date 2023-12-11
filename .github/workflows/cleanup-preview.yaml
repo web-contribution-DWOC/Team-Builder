@@ -17,4 +17,4 @@ jobs:
       - name: Cleanup Koyeb application
         uses: koyeb/action-git-deploy/cleanup@v1
         with:
-          app-name: 'expressjs-pr-${{ github.head_ref }}'
+          app-name: 'teambuilder'
