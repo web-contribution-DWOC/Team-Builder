@@ -23,5 +23,5 @@ jobs:
           git-branch: ${{ github.head_ref }}
           app-name: 'expressjs-pr-${{ github.head_ref }}'
           service-name: ${{ github.head_ref }}
-          service-ports: '3000:http'
-          service-routes: '/:3000'
+          service-ports: '4000:http'
+          service-routes: '/:4000'
