@@ -25,3 +25,4 @@ jobs:
           service-name: 'team-builder'
           service-ports: '4000:http'
           service-routes: '/:4000'
+          instance-type: 'free'
