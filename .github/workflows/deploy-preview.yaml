@@ -5,11 +5,10 @@ on:
     branches:
       - dev
 
-permissions: write-all
-
 jobs:
   deploy_preview:
     runs-on: ubuntu-latest
+    permissions: write-all
     concurrency:
       group: '${{ github.head_ref }}'
       cancel-in-progress: true
