@@ -8,7 +8,10 @@ on:
 jobs:
   deploy_preview:
     runs-on: ubuntu-latest
-    permissions: write-all
+    permissions:
+      pull-requests: write
+      actions: write
+      deployments: write
     concurrency:
       group: '${{ github.head_ref }}'
       cancel-in-progress: true
