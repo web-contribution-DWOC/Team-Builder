@@ -16,6 +16,9 @@ jobs:
       group: '${{ github.head_ref }}'
       cancel-in-progress: true
     steps:
+      - name: Login to Koyeb
+        run: koyeb login --token ${{ secrets.KOYEB_API_TOKEN }}
+        
       - name: Install and configure the Koyeb CLI
         uses: koyeb-community/install-koyeb-cli@v2
         with:
