@@ -9,23 +9,22 @@
   </head>
   <body bgcolor="#1f1734">
     <button id="back" onclick="history.back()">Dashboard</button>
-    <div class="section-form">
-    <form method="post" action="#" id="form_Element" >
-        <div class="intro">
-         <h2>Tell about your idea</h2>
-        </div>
-
-        <input id="idea-title" type="text" value="" placeholder="Title of your idea" name="email" tabindex="3" />
-        <textarea id="description" placeholder="Tell about your idea in one or two lines" name="Message" tabindex="5" rows="10"></textarea>
-        logo <br>
-
-        <label class="button-image" for="logo-input">
-        </label>
-        <input  id="logo-input" type="file" name="image" accept="image/*" capture="camera" />
-     
-        <button type="submit" tabindex="10" >Submit</button>
-    </form>
-</div>
+    <div id="idea-form">
+      <div class="form-header">
+        <h1>Tell us about your idea 💡</h1>
+      </div>
+      <div class="section-form">
+        <form method="post" action="#" id="form_Element" >
+            <input id="idea-title" type="text" value="" placeholder="Title of your idea" name="email" tabindex="3" />
+            <textarea id="description" placeholder="Tell about your idea in one or two lines" name="Message" tabindex="5" rows="10"></textarea>
+            <p>Select Logo</p>
+            <div class="idea-form-bottom">
+              <input  id="logo-input" type="file" name="image" accept="image/*" capture="camera" />
+              <button type="submit" tabindex="10" class="idea-submit-btn">Submit</button>
+            </div>
+        </form>
+      </div>
+    </div>
     
     <script  type="module" src="script.js"></script>
   </body>
