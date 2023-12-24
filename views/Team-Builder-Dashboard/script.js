@@ -32,7 +32,7 @@ import {
   appId,
   measurementId
 };
-console.log(getFirebaseConfig)
+
 
 
 
