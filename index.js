@@ -171,7 +171,14 @@ app.post("/dashboard", (req, res) => {
             var user = global.session.userid;
               res.render("Team-Builder-Dashboard/index", {
                   user : user,
-                  profile_url:users[index].profileurl
+                  profile_url:users[index].profileurl,
+                  apiKey: process.env.apiKey,
+                  authDomain: process.env.authDomain,
+                  projectId: process.env.projectId,
+                  storageBucket: process.env.storageBucket,
+                  messagingSenderId: process.env.messagingSenderId,
+                  appId: process.env.appId,
+                  measurementId: process.env.measurementId
               });
           }
           else{

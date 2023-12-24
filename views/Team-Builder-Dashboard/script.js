@@ -3,7 +3,6 @@
  * firesore database.
  */
 
-
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.6.2/firebase-app.js';
 
  import {
@@ -24,7 +23,16 @@ import {
 } from 'https://www.gstatic.com/firebasejs/9.6.2/firebase-storage.js';
 
 
-import { getFirebaseConfig } from '/views/firebase-config.js';
+ const getFirebaseConfig = {
+  apiKey,
+  authDomain,
+  projectId,
+  storageBucket,
+  messagingSenderId,
+  appId,
+  measurementId
+};
+console.log(getFirebaseConfig)
 
 
 
@@ -333,7 +341,7 @@ profileCaptureElement.addEventListener('change', onMediaFileSelected);
 
 
 
-const firebaseApp = initializeApp(getFirebaseConfig());
+const firebaseApp = initializeApp(getFirebaseConfig);
 const storage = getStorage(firebaseApp);
 
 loadIdea();
